@@ -13,6 +13,7 @@ var pusher = new Pusher({
     cluster: 'APP_CLUSTER'
 });
 
+// adding chat msg endpoint
 app.post('/message', function(req, res) {
     var message = req.body.message;
     pusher.trigger('public-chat', 'message-added', { message });
