@@ -9,6 +9,9 @@
   "author": "David D",
   "license": "ISC",
   "dependencies": {
-    "npm": "^6.0.1"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "npm": "^6.0.1",
+    "pusher": "^2.0.0"
   }
 }
